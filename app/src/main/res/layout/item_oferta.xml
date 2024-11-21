@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="10dp"
+android:orientation="horizontal"
+
+    >
+    
+
+
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp"
+        android:orientation="vertical"
+        android:id="@+id/linerar1"
+        >
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="125sp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="Grandes momentos con papa"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/txtSubtitulo"
+            android:layout_width="125sp"
+            android:layout_height="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:layout_marginLeft="5dp"
+            android:text="PRECIO OFERTA:"
+            android:textSize="10sp"
+            />
+
+        <TextView
+            android:id="@+id/txtPrecio"
+            android:layout_width="125sp"
+            android:layout_height="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:layout_marginLeft="5dp"
+            android:text="S/. 30.90"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:id="@+id/txtPrecioregular"
+            android:layout_width="140dp"
+            android:layout_height="20dp"
+
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:text="Precio regular S/. 33.90"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:id="@+id/txtProducto"
+            android:layout_width="140dp"
+            android:layout_height="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:text="Tomate"
+            android:textSize="12sp"
+            android:textColor="@color/blue"
+            />
+
+        <TextView
+            android:id="@+id/txtCantidad"
+            android:layout_width="140dp"
+            android:layout_height="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:text="Cantidad: 12 Kg"
+            android:textSize="12sp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="190dp"
+        android:layout_height="200dp"
+        android:layout_gravity="end"
+      android:orientation="vertical"
+
+
+        >
+
+
+
+<ImageView
+    android:id="@+id/imgProductooferta"
+    android:layout_width="160dp"
+    android:layout_height="140dp"
+    android:src="@drawable/tomatepublicidad"
+    />
+
+
+
+        <TextView
+
+            android:id="@+id/txtValido"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:text="Promoción valida del 10 de junio al 16 de junio del 2024 y/o hasta agotar stock"
+            android:textSize="11sp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

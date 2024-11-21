@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:text="Nombre Cliente"
+            android:textColor="@color/red"/>
+
+        <TextView
+            android:id="@+id/textDni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:text="00000000"/>
+
+        <TextView
+            android:id="@+id/textFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+
+            android:text="Fecha:"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/textCiudad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/baseline_location_on_24"
+            android:text="Trujillo"/>
+        <TextView
+            android:id="@+id/textDepartamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+
+            app:layout_constraintRight_toLeftOf="@id/textCiudad"
+
+            android:text="- La Libertad"/>
+
+    </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Se reporta que los empleados de la MPT de trujillo no estan recbiendo sus sueldos en los plazos correctos,ademas de trabajar horas extras sin compensaciones."/>
+
+
+        <TextView
+            android:id="@+id/textDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Calle El Ejercito"/>
+
+        <TextView
+            android:id="@+id/textTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="00.00"/>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

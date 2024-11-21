@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+
+
+    <item
+        android:id="@+id/itemCategorias"
+        android:title="Categorias"
+        android:icon="@drawable/baseline_apps_24" />
+
+
+    <item
+        android:id="@+id/itemPedidos"
+        android:title="Pedidos"
+        android:icon="@drawable/outline_assignment_24"/>
+
+    <item
+        android:id="@+id/itemFavoritos"
+        android:title="Favoritos"
+        android:icon="@drawable/baseline_favorite_24"/>
+    <item
+        android:id="@+id/itemAyuda"
+        android:title="Ayuda"
+        android:icon="@drawable/baseline_help_24"/>
+
+    <item
+        android:id="@+id/itemCominucate"
+        android:title="Comunicate con nosotros"
+        android:icon="@drawable/icons8_whatsapp_50"/>
+
+    <item android:id="@+id/itemConfiguracion"
+        android:title="Configuracion" >
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/itemUbicanos"
+                android:title="Ubicanos"
+                android:icon="@drawable/baseline_location_on_24"/>
+
+            <item android:id="@+id/itemTema"
+                android:title="Cambiar tema claro a oscuro"
+                android:icon="@drawable/baseline_dark_mode_24"/>
+        </menu>
+    </item>
+
+</menu>

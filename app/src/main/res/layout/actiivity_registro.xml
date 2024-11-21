@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/fondo4"
+    tools:context=".login.LoginActivity"
+    >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/agregar"/>
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        android:hint="@string/edt_nom"
+        android:textStyle="bold"
+        android:fontFamily="@font/ebgaramond_medium"/>
+
+    <EditText
+        android:id="@+id/edtApellidos"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        android:hint="@string/edt_ape"
+        android:textStyle="bold"
+        android:fontFamily="@font/ebgaramond_medium"/>
+    <EditText
+        android:id="@+id/edtCorreo"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        android:hint="@string/edt_correo"
+        android:textStyle="bold"
+        android:fontFamily="@font/ebgaramond_medium"/>
+    <EditText
+        android:id="@+id/edtClave"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        android:hint="@string/edt_clave"
+        android:textStyle="bold"
+        android:fontFamily="@font/ebgaramond_medium"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/edtRepClave"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        android:hint="@string/edt_rc"
+        android:textStyle="bold"
+        android:fontFamily="@font/ebgaramond_medium"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btnHola"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="REGISTRAR"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/red"
+
+        />
+</LinearLayout>

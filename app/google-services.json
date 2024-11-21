@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "749716407133",
+    "project_id": "minimarketapp-545c2",
+    "storage_bucket": "minimarketapp-545c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749716407133:android:d1e8e7b8477156aaeadeb4",
+        "android_client_info": {
+          "package_name": "com.cibertec.minimarketapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl4N3PXUSJKmrxotOVAl6Zasv0Vn-pKoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

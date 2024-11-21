@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">minimarketapp</string>
+    <string name="edt_BIEN">BIENVENIDO</string>
+    <string name="btn_ingresar">INGRESAR</string>
+    <string name="btn_register">REGISTRAR</string>
+    <string name="edt_noria">MINIMARKET LA NORIA </string>
+    <string name="edt_email">Correo</string>
+    <string name="edt_contraseña">Contraseña</string>
+
+
+
+    <string name="edt_nom">Nombre</string>
+    <string name="edt_ape">Apellidos</string>
+    <string name="edt_correo">Correo</string>
+    <string name="edt_clave">Clave</string>
+    <string name="edt_rc">Repetir Clave</string>
+
+    <string name="txt_nombreapp">Minimarket "La Noria"</string>
+
+    
+    
+    
+    
+    <string name="edt_bienvenido">BIENVENIDO</string>
+    <string name="btn_cont">Continuar</string>
+
+    <string name="text_clave">Recuperar Clave</string>
+<string name="edt_olvcon">Olvidó su Contraseña</string>
+
+
+
+    <string name="btn_siguiente">Siguiente</string>
+
+
+    //Activyticategorias
+    <string name="text_categorias">Categorias</string>
+    <string name="btn_siguienteproducto">Siguiente</string>
+    <string name="txt_welcome">Categorias</string>
+
+    //Itemcategoria
+    <string name="btn_vercategoria">Ver</string>
+    <string name="txt_categorias">categorias</string>
+    <string name="btn_verlacteos">Ver</string>
+    <string name="btn_Frutas">Ver</string>
+    <string name="btn_Berduras">Ver</string>
+    <string name="btn_Bebidas">Ver</string>
+    <string name="btn_Harinas">Ver</string>
+    <string name="btn_Carnes">Ver</string>
+    <string name="btn_Helados"></string>
+
+    //Producto
+    <string name="text_yogurt">Yogurt</string>
+    <string name="btn_sig">Siguiente</string>
+
+
+
+    <string name="txt_lacteo">LACTEOS</string>
+    <string name="txt_detalle">Detalle</string>
+    <string name="txt_precio_l">Precio</string>
+    <string name="btn_lacteo">Ver</string>
+
+
+    //btn continuar 2
+    <string name="btn_continuar2">Siguiente</string>
+
+
+    //item_fruta
+    <string name="txt_fruta">Manzana Roja</string>
+    <string name="txt_precio">S/. 3.00</string>
+
+    //Activity frutas
+    <string name="txt_frutas">Frutas</string>
+
+</resources>
